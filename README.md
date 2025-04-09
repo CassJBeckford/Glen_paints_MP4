@@ -123,8 +123,8 @@ Through this site he can share his passion for creating and designing, demonstra
 
 ### Home:
 
-[Homepage](/docs/wireframes_home_top.png)
-[Homepage](/docs/wireframes_home_bottom.png)
+[Homepage_top](/docs/wireframes_home_top.png)
+[Homepage_bottom](/docs/wireframes_home_bottom.png)
 
 ### Shop:
 
@@ -148,7 +148,7 @@ Through this site he can share his passion for creating and designing, demonstra
 
 ### Account:
 
-[Account](/docs/wireframes_login.png)
-[Account](/docs/wireframes_register.png)
+[Account_login](/docs/wireframes_login.png)
+[Account_register](/docs/wireframes_register.png)
 
 

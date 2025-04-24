@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock %}
+
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -10,14 +14,69 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col"></div>
-            <div class="col">
-                <h2>A Big Title</h2>
-                <h3>A subtitle</h3>
-                <p>some text talking about the artist</p>
+    <section class="container text-center py-4 py-md-5">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <div class="bio-image-div">
+                    <img src="{{ MEDIA_URL }}media/a89a4acd-1e17-4c92-a175-fed0683500e7.webp" class="home-image" alt="placeholder">
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 bio-text">
+                <h1></h1>
+                <p class="lead pt-3">photographer / painter</p>
+                <div class="col text-center py-2">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <p>
+                    quick about text
+                </p>
+                <p>
+                    longer about text.
+                </p>
             </div>
         </div>
+    </section>
+
+    <div class="pink">
+    <hr>
+    <section class="container py-4 py-md-5">
+        <div class="row">
+            <div class="col-12 col-lg-6 bio-text">
+                <h1></h1>
+                <p class="lead pt-3 text-left">photographer / painter</p>
+                <p class="text-left">
+                    quick about text
+                </p>
+            </div>
+        </div>
+        <div class="row card-deck">
+            <div class="card" style="width: 15rem;">
+                <img src="{{ MEDIA_URL }}media/e46bf25d-5c9e-4011-8b64-c64e981a3bfc.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="{{ MEDIA_URL }}media/e46bf25d-5c9e-4011-8b64-c64e981a3bfc.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="{{ MEDIA_URL }}media/e46bf25d-5c9e-4011-8b64-c64e981a3bfc.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </section>
     </div>
 {% endblock %}

@@ -1,0 +1,158 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+          "sku": "p1/mul/1",
+          "name": "placeholder1",
+          "description": "Acrylic on canvas. Textured painting using blue, yellow and white",
+          "category": 2,
+          "rating": 4.5,
+          "price": 150,
+          "image": "a89a4acd-1e17-4c92-a175-fed0683500e7.webp"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+          "sku": "p2/mul/2",
+          "name": "placeholder2",
+          "description": "Acrylic on canvas. Textured painting using blue, white and black",
+          "category": 2,
+          "rating": 4.5,
+          "price": 150,
+          "image": "f74edbe7-f776-47bd-9288-3e7658a0559f.JPG"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+          "sku": "p3/mul/3",
+          "name": "placeholder3",
+          "description": "Ink on foam board, using blue and green",
+          "category": 2,
+          "rating": 4.5,
+          "price": 150,
+          "image": "7b67679b-c3bb-4383-854b-d3d99009debd.JPG"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+          "sku": "p4/mul/4",
+          "name": "placeholder4",
+          "description": "Ink on foam board, using blue and yellow",
+          "category": 2,
+          "rating": 4.5,
+          "price": 150,
+          "image": "88c0dd61-0c4d-4749-aaf6-24c95356c9f3.JPG"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+          "sku": "p5/mul/5",
+          "name": "placeholder5",
+          "description": "Acrylic on canvas. Using white, black and pink",
+          "category": 2,
+          "rating": 4.5,
+          "price": 150,
+          "image": "3bfee5be-3ac1-4a4a-aef7-fcb2a1a1f544.JPG"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+          "sku": "p6/mul/6",
+          "name": "placeholder6",
+          "description": "Acrylic on canvas. Using white, black and pink",
+          "category": 2,
+          "rating": 4.5,
+          "price": 150,
+          "image": "c2b387e2-f3a8-4e34-8408-f1aad830d040.JPG"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+          "sku": "p7/sin/7",
+          "name": "placeholder7",
+          "description": "Acrylic on canvas. Black paint only",
+          "category": 1,
+          "rating": 4.5,
+          "price": 150,
+          "image": "e46bf25d-5c9e-4011-8b64-c64e981a3bfc.JPG"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+          "sku": "p8/sin/8",
+          "name": "placeholder8",
+          "description": "Acrylic on canvas. Black paint only",
+          "category": 1,
+          "rating": 4.5,
+          "price": 150,
+          "image": "935067e2-0b55-4d67-b2bf-103115cfaebb.JPG"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+          "sku": "p9/sin/9",
+          "name": "placeholder9",
+          "description": "Acrylic on canvas. Blue paint only",
+          "category": 1,
+          "rating": 4.5,
+          "price": 150,
+          "image": "6887e468-029e-48ff-b32a-75abc1d5744c.JPG"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+          "sku": "p10/mul/10",
+          "name": "placeholder10",
+          "description": "Acrylic on canvas. Textured painting using blue, white and black",
+          "category": 2,
+          "rating": 4.5,
+          "price": 150,
+          "image": "57b01abc-7709-4d46-8759-67260693ffa5.JPG"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+          "sku": "p11/mul/11",
+          "name": "placeholder11",
+          "description": "Acrylic on canvas. Using white, black and pink",
+          "category": 2,
+          "rating": 4.5,
+          "price": 150,
+          "image": "bef50173-1e87-49a4-979e-253de6e410c3.JPG"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+          "sku": "p12/mul/12",
+          "name": "placeholder12",
+          "description": "Acrylic on canvas. Using yellow, red, blue and black",
+          "category": 2,
+          "rating": 4.5,
+          "price": 150,
+          "image": "1fbc8f27-8021-469d-a9aa-1af50a59ce77.JPG"
+        }
+    }
+]

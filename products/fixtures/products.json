@@ -4,7 +4,7 @@
         "model": "products.product",
         "fields": {
           "sku": "p1/mul/1",
-          "name": "placeholder1",
+          "name": "Blue Painting",
           "description": "Acrylic on canvas. Textured painting using blue, yellow and white",
           "category": 2,
           "rating": 4.5,
@@ -17,11 +17,11 @@
         "model": "products.product",
         "fields": {
           "sku": "p2/mul/2",
-          "name": "placeholder2",
+          "name": "Black Painting",
           "description": "Acrylic on canvas. Textured painting using blue, white and black",
           "category": 2,
           "rating": 4.5,
-          "price": 150,
+          "price": 151,
           "image": "f74edbe7-f776-47bd-9288-3e7658a0559f.JPG"
         }
     },
@@ -30,11 +30,11 @@
         "model": "products.product",
         "fields": {
           "sku": "p3/mul/3",
-          "name": "placeholder3",
+          "name": "Green Ink",
           "description": "Ink on foam board, using blue and green",
           "category": 2,
           "rating": 4.5,
-          "price": 150,
+          "price": 152,
           "image": "7b67679b-c3bb-4383-854b-d3d99009debd.JPG"
         }
     },
@@ -60,7 +60,7 @@
           "description": "Acrylic on canvas. Using white, black and pink",
           "category": 2,
           "rating": 4.5,
-          "price": 150,
+          "price": 157,
           "image": "3bfee5be-3ac1-4a4a-aef7-fcb2a1a1f544.JPG"
         }
     },
@@ -69,11 +69,11 @@
         "model": "products.product",
         "fields": {
           "sku": "p6/mul/6",
-          "name": "placeholder6",
+          "name": "Pink Painting",
           "description": "Acrylic on canvas. Using white, black and pink",
           "category": 2,
           "rating": 4.5,
-          "price": 150,
+          "price": 159,
           "image": "c2b387e2-f3a8-4e34-8408-f1aad830d040.JPG"
         }
     },

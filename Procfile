@@ -1,0 +1,1 @@
+web: gunicorn glen_paints.wsgi:application

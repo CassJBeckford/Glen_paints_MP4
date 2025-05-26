@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "question": "HOW WILL MY ORDER BE PACKAGED/POSTED?",
+        "answer": "",
+        "category": "Orders",
+    },
+    {
+        "id": 2,
+        "question": "DO YOU HAVE GIFT PACKAGING OPTIONS?",
+        "answer": "",
+        "category": "Orders",
+    },
+    {
+        "id": 5,
+        "question": "CAN I CANCEL OR MODIFY AN ORDER?",
+        "answer": "",
+        "category": "Orders",
+    },
+    {
+        "id": 3,
+        "question": "WHAT COUNTRIES DO YOU SHIP TO?",
+        "answer": "",
+        "category": "Delivery",
+    },
+    {
+        "id": 4,
+        "question": "WHAT IF MY ORDER ARRIVES DAMAGED?",
+        "answer": "",
+        "category": "Delivery",
+    },
+    {
+        "id": 6,
+        "question": "WHAT IS YOUR RETURN/EXCHANGE POLICY?",
+        "answer": "",
+        "category": "Returns",
+    },
+    {
+        "id": 7,
+        "question": "WHAT PAYMENT METHODS DO YOU ACCEPT?",
+        "answer": "",
+        "category": "Payments",
+    }
+]

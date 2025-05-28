@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container-fluid header-container">
+    <div class="row">
+        <div class="col">
+
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h2>Get in Contact</h2>
+            <p>
+                Searching for info you haven't seen covered on our site? 
+                Feel free to contact us and we'll be happy to answer any questions/requests.
+            </p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
+            <form method="POST" class="form mb-2">
+                {% csrf_token %}
+                {{ form.first_name | as_crispy_field }}
+                {{ form.last_name | as_crispy_field }}
+                {{ form.email | as_crispy_field }}
+                {{ form.message | as_crispy_field }}
+                <div class="text-center">
+                    <button class="btn btn-black mb-3 mt-sm-3" type="submit">submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</div>
+{% endblock %}

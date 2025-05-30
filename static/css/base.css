@@ -6,6 +6,12 @@
     font-style: normal;
     color: #000;
 }
+
+.lexend-deca-uniquifier {
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
   
 html {
     height: 100%;
@@ -14,6 +20,11 @@ html {
 body {
     background-size: cover;
     color: #000;
+}
+
+p {
+    font-family: Lexend Deca;
+    font-size: 19px;
 }
 
 /* from Bulma */
@@ -163,6 +174,14 @@ a.category-badge > span.badge:hover {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+/* -------------------------------- Media Queries */
+
+.footer {
+    background-color: #f8f9fa;
+
+    border-top: 3px dashed #000;
 }
 
 /* -------------------------------- Media Queries */

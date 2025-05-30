@@ -2,3 +2,11 @@
     width: 500px;
     height: 500px;
 }
+
+.bio-image-div img {
+    max-width: 100%;
+}
+
+.bio-text {
+    margin: auto;
+}

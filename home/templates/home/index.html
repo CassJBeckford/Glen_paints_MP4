@@ -45,37 +45,36 @@
     <hr>
     <section class="container py-4 py-md-5">
         <div class="row">
-            <div class="col-12 col-lg-6 bio-text">
-                <h1></h1>
-                <p class="lead pt-3 text-left">Browse artwork</p>
-                <p class="text-left">
+            <div class="col-12 col-lg-6 bio-text text-center">
+                <h2 class="head-text">Browse artwork</h2>
+                <p class="">
                     Take a look at some of my favorite original pieces that are currently available for purchase.
                 </p>
             </div>
         </div>
         <div class="row card-deck">
-            <div class="card" style="width: 15rem;">
-                <img src="{{ MEDIA_URL }}e46bf25d-5c9e-4011-8b64-c64e981a3bfc.JPG" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+            <div class="card">
+                <img src="{{ MEDIA_URL }}card1.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">All artwork</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="{% url 'products' %}" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
-            <div class="card" style="width: 15rem;">
-                <img src="{{ MEDIA_URL }}e46bf25d-5c9e-4011-8b64-c64e981a3bfc.JPG" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+            <div class="card">
+                <img src="{{ MEDIA_URL }}card3.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Single colour</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="{% url 'products' %}?category=single colour" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
-            <div class="card" style="width: 15rem;">
-                <img src="{{ MEDIA_URL }}e46bf25d-5c9e-4011-8b64-c64e981a3bfc.JPG" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+            <div class="card">
+                <img src="{{ MEDIA_URL }}card2.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Multi-colour</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="{% url 'products' %}?category=multi-colour" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>

@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/contact.css' %}">
+{% endblock %}
+
 {% block page_header %}
 <div class="container-fluid header-container">
     <div class="row">
@@ -14,8 +18,8 @@
 {% block content %}
 <div class="container">
     <div class="row">
-        <div class="col-12">
-            <h2>Get in Contact</h2>
+        <div class="col-12 text-center contact-head">
+            <h2 class="head-text">Get in Contact</h2>
             <p>
                 Searching for info you haven't seen covered on our site? 
                 Feel free to contact us and we'll be happy to answer any questions/requests.

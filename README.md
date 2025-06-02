@@ -1,6 +1,6 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Glen paints](docs/logo.png)
 
-# Glen paints (name TBD)
+# Glen paints
 # - a full stack e-commerce web application
 
 ------
@@ -38,18 +38,93 @@ Through this site he can share his passion for creating and designing, demonstra
  5. Secure profile creation
  6. Confirmation/error pages
 
-### User Stories
+## User Stories
 
-#### User
+### User
 
-#### Admin user or Site owner
+- ### First time user goals 
+
+    1. As a first time User, I want to easily register for an account 
+    2. As a first time user, I want to navigate the website easily to find what's available.
+    3. As a first time User, I want to know about the artist being what's being sold
+    4. As a first time User, I want to easily add products to my bag 
+    5. As a first time User, I want easily pay for my items 
+
+- ### Returning time user goals 
+
+    1. As a Returning User, I want log in easily and view my purchase history.
+    2. As a Returning User, I would like to sort products by various criteria
+
+- ### Frequent time user goals 
+
+    1. As a frequent User, I would like my personal details saved on my account for an easier checkout process
+    2. As a frequent User, I want a way to get in contact with the seller 
+    3. As a frequent User, I want to easily see any answers to questions I may have.
+
+### Admin user or Site owner
+
+- ### User goals
+
+    1. As an Admin User, I would like to manage the product listings that are displayed on the site.
+    2. As an Admin User, I would like access to editing or adding new products.
+    3. As an Admin User, I would like the option to remove products.
+
+## Design
+
+### Colour Scheme
+
+- #### [Coolers](https://coolors.co/) : Coolors has been used to help with the colour scheme for the project.
+
+#### The main colours used in this website are:
+#### ![Text](docs/colours.png)
+
+### Typography:
+- #### The fonts use throughout this website are:
+    - Google fonts 'Rubik Glitch' for the title of the website and 'Lexend Deca' for the rest of the text.
+
+### Imagery
+
+- #### All images are original paintings by Glen Beckford.
+
+## Wireframes
+
+### Home:
+
+[Homepage_top](/docs/wireframes_home_top.png)
+[Homepage_bottom](/docs/wireframes_home_bottom.png)
+
+### Shop:
+
+[shop](/docs/wireframes_shop.png)
+
+### Item page:
+
+[Item](/docs/wireframes_shop_item.png)
+
+### FAQs:
+
+[FAQs](/docs/wireframes_FAQs.png)
+
+### Contact: 
+
+[Contact](/docs/wireframes_contact.png)
+
+### Basket:
+
+[Basket](/docs/wireframes_basket.png)
+
+### Account:
+
+[Account_login](/docs/wireframes_login.png)
+[Account_register](/docs/wireframes_register.png)
 
 ---
 
 ## Database Structure
-### Details.
-
 ### Diagram
+
+- The diagram (created on DrawSQL) shows a layout of the tables created by my models in the database.
+[DB](docs/database_diagram.png)
 
 ---
 
@@ -64,6 +139,34 @@ Through this site he can share his passion for creating and designing, demonstra
 ### Frameworks:
 - [Django v3.2](https://www.djangoproject.com/)
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) 
+
+### Libraries:
+- [JQuery](https://jquery.com/) 
+- [Google Fonts](https://fonts.google.com/) 
+- [FontAwesome](https://fontawesome.com/) 
+
+### Packages:
+- **asgiref** 
+- **boto3** 
+- **botocore** 
+- **dj-database-url** 
+- **django** 
+- **django-allauth** 
+- **django-countries** 
+- **django-crispy-forms** 
+- **django-storages**
+- **gunicorn**
+- **jmespath**
+- **oauthlib**
+- **pillow**
+- **psycopg2**
+- **python-dotenv**
+- **python3-openid**
+- **pytz**
+- **requests-oauthlib**
+- **s3transfer**
+- **sqlparse**
+- **stripe**
 
 ---
 
@@ -118,37 +221,5 @@ Through this site he can share his passion for creating and designing, demonstra
  2. Register - Users can create an account using their email and create a password.
 
  ---
-
-## Wireframes
-
-### Home:
-
-[Homepage_top](/docs/wireframes_home_top.png)
-[Homepage_bottom](/docs/wireframes_home_bottom.png)
-
-### Shop:
-
-[shop](/docs/wireframes_shop.png)
-
-### Item page:
-
-[Item](/docs/wireframes_shop_item.png)
-
-### FAQs:
-
-[FAQs](/docs/wireframes_FAQs.png)
-
-### Contact: 
-
-[Contact](/docs/wireframes_contact.png)
-
-### Basket:
-
-[Basket](/docs/wireframes_basket.png)
-
-### Account:
-
-[Account_login](/docs/wireframes_login.png)
-[Account_register](/docs/wireframes_register.png)
 
 

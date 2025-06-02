@@ -21,7 +21,7 @@
                     <img src="{{ MEDIA_URL }}Untitled_Artwork 7.jpg" class="home-image" alt="placeholder">
                 </div>
             </div>
-            <div class="col-12 col-lg-6 bio-text">
+            <div class="col-12 col-lg-6 bio-text orange">
                 <h1>Glen Beckford</h1>
                 <p class="lead pt-3">photographer / painter</p>
                 <div class="col text-center py-2">
@@ -40,14 +40,13 @@
             </div>
         </div>
     </section>
-
-    <div class="pink">
+    <div class="home-shop">
     <hr>
     <section class="container py-4 py-md-5">
         <div class="row">
             <div class="col-12 col-lg-6 bio-text text-center">
-                <h2 class="head-text">Browse artwork</h2>
-                <p class="">
+                <h2 class="head-text shop-header">Browse artwork</h2>
+                <p class="shop-text">
                     Take a look at some of my favorite original pieces that are currently available for purchase.
                 </p>
             </div>
@@ -58,7 +57,7 @@
                 <div class="card-body text-center">
                   <h5 class="card-title head-text">All artwork</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="{% url 'products' %}" class="btn btn-primary">Go somewhere</a>
+                  <a href="{% url 'products' %}" class="btn btn-primary"><strong>SHOP</strong></a>
                 </div>
             </div>
             <div class="card">
@@ -66,7 +65,7 @@
                 <div class="card-body text-center">
                   <h5 class="card-title head-text">Single colour</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="{% url 'products' %}?category=single colour" class="btn btn-primary">Go somewhere</a>
+                  <a href="{% url 'products' %}?category=single colour" class="btn btn-primary"><strong>SHOP</strong></a>
                 </div>
             </div>
             <div class="card">
@@ -74,11 +73,10 @@
                 <div class="card-body text-center">
                   <h5 class="card-title head-text">Multi-colour</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="{% url 'products' %}?category=multi-colour" class="btn btn-primary">Go somewhere</a>
+                  <a href="{% url 'products' %}?category=multi-colour" class="btn btn-primary"><strong>SHOP</strong></a>
                 </div>
             </div>
         </div>
     </section>
-    <hr>
     </div>
 {% endblock %}

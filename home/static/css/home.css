@@ -10,3 +10,28 @@
 .bio-text {
     margin: auto;
 }
+
+.shop-header, .shop-text {
+    color: #E4D2CC;
+}
+
+.home-shop {
+    background-color: #222021;
+}
+
+.card .btn {
+    background-color: #9B84C3;
+    border: none;
+}
+
+.card {
+    background-color: #E4D2CC;
+}
+
+.card-text {
+    color: #222021;
+}
+
+.card-title {
+    color: #222021;
+}

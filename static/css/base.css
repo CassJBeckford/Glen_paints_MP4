@@ -27,6 +27,14 @@ p {
     font-size: 19px;
 }
 
+.navbar {
+    background-color: #E4D2CC;
+}
+
+.threshold-banner {
+    background-color: #9B84C3;
+}
+
 .head-text {
     text-transform: uppercase;
 }
@@ -80,6 +88,10 @@ p {
 
 .pink {
     background-color: rgb(255, 208, 208);
+}
+
+.orange {
+    color: #C26C21;
 }
 
 .overlay {
@@ -183,8 +195,7 @@ a.category-badge > span.badge:hover {
 /* -------------------------------- Media Queries */
 
 .footer {
-    background-color: #f8f9fa;
-
+    background-color: #F3F1F0;
     border-top: 3px dashed #000;
 }
 

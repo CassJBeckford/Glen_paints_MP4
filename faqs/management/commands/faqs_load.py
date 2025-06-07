@@ -26,3 +26,5 @@ class Command(BaseCommand):
                     answer=item['answer'],
                     category=item['category'],
                 )
+
+        self.stdout.write(self.style.SUCCESS('Loaded successfully'))

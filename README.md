@@ -124,7 +124,7 @@ Through this site he can share his passion for creating and designing, demonstra
 ### Diagram
 
 - The diagram (created on DrawSQL) shows a layout of the tables created by my models in the database.
-[DB](docs/data_structure.png)
+![DB](docs/data_structure.png)
 
 ---
 
@@ -175,50 +175,78 @@ Through this site he can share his passion for creating and designing, demonstra
 ### All pages:
 - Nav: 
 
- 1. Website name that links to home page 
- 2. Search bar for shop items 
- 3. Link to account details
- 4. Link to basket
- 5. Links to about, shop, FAQs and contact page 
+ 1. Nav (large view) includes clickable logo to take user back to home screen, Link to basket, link to account options, and home/shop/FAQs/contact navigation links. 
+ ![Features](docs/features/nav.png)
+ 2. Nav (mobile view)
+ ![Features](docs/features/mobil_nav.png)
+ 3. Search bar for shop items
+ ![Features](docs/features/search_bar.png)
+ 4. The 'my account' dropdown options adjust depending on user context
+    - Login options
+    ![Features](docs/features/login_options.png)
+    - Logged in user options
+    ![Features](docs/features/user_options.png)
+    - Admin options
+    ![Features](docs/features/admin_options.png)
+ 5. Updated basket info 
+ - ![Features](docs/features/basket_update.png)
  6. Discount info 
 
 - Footer:
 
- 1. Links to categories. (Paintings & Photography)
+ 1. Navigation links to shop, faqs and contact
  2. Links to social media 
+ ![Features](docs/features/Footer.png)
 
 ### Home:
 
  1. Short ‘about’ section talking about the artist with links to social media.
- 2. Info on what’s being sold to links to ‘shop’ section
+ ![Features](docs/features/home_bio.png)
+ 2. Info on what’s being sold - links to ‘shop’ section
+ ![Features](docs/features/home_shop_options.png)
 
 ### Shop:
 
- 1. Options to ‘view all’, ‘view paintings’ or ‘view photography’
- 2. Depending on the option chosen page includes: dropdown menu with filters, number of items, products and which categories are being displayed.
-
+ 1. Shop page includes: dropdown menu with filters, number of items and products.
+ ![Features](docs/features/product_listing.png)
+ ![Features](docs/features/product_count.png)
+ ![Features](docs/features/filters.png)
 ### Item page:
 
  1. Image of product chosen 
- 2. Includes name, price, description, quantity and add to bag option
+ 2. Includes name, price and description
+ 3. option to adjust quantity and add to bag option
+ ![Features](docs/features/purchase_buttom.png)
 
 ### FAQs:
 
- 1. Frequently asked questions
+ 1. Frequently asked questions accordian.
+ ![Features](docs/features/faqs_accordian.png)
 
 ### Contact: 
 
  1. Get in contact form
+ ![Features](docs/features/contact_form.png)
 
 ### Basket:
 
  1. All products a user has added to their cart including a final price 
+ ![Features](docs/features/checkout_options.png)
+ 2. Users can go to the checkout page using the 'secure checkout' button on the basket page or on the toast that appears immediately after adding an item to the bag
+ ![Features](docs/features/added_to_bag.png)
+
+### Checkout:
+
+ 1. Includes a checkout form for adding delivery and payment info 
+ ![Features](docs/features/checkout_page.png)
 
 ### Account:
 
  1. Sign in - Users can input their sign in info or the option to register an account if they don't have one already.
+ ![Features](docs/features/user_signin.png)
 
  2. Register - Users can create an account using their email and create a password.
+ ![Features](docs/features/user_signup.png)
 
  ---
 

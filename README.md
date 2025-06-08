@@ -124,7 +124,7 @@ Through this site he can share his passion for creating and designing, demonstra
 ### Diagram
 
 - The diagram (created on DrawSQL) shows a layout of the tables created by my models in the database.
-[DB](docs/database_diagram.png)
+[DB](docs/data_structure.png)
 
 ---
 

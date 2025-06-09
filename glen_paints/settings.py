@@ -26,7 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-_lh)4c8qfg^gn-^v%4)kk)s5sg_xi3xeratqi5zlt=3fr8yk(8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+development = os.environ.get('DEVELOPMENT')
+
+DEBUG = development
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
@@ -54,7 +56,6 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'faqs',
-    'faqs_2',
     'contact',
 
     # Other

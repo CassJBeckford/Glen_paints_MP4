@@ -24,7 +24,7 @@ class Command(BaseCommand):
                 faq.objects.create(
                     question=item['question'],
                     answer=item['answer'],
-                    category=item['category'],
+                    category=item['category']
                 )
 
         self.stdout.write(self.style.SUCCESS('Loaded successfully'))

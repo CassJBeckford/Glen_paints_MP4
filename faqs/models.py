@@ -3,7 +3,7 @@ from django.db import models
 
 # Create your models here.
 class faq(models.Model):
-    question = models.CharField(max_length=255)
+    question = models.CharField(max_length=260)
     answer = models.TextField()
     category = models.CharField(max_length=50, blank=True, null=True)
 

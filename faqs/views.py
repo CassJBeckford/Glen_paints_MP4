@@ -1,10 +1,10 @@
 from django.shortcuts import render
-from .models import FAQ
+from .models import faq
 
 
 def faqs_page(request):
     """ A view to return the FAQs page """
-    faqs = FAQ.objects.all()
+    faqs = faq.objects.all()
     context = {
         'faqs': faqs,
     }

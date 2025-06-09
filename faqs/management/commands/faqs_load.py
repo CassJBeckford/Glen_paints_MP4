@@ -1,6 +1,6 @@
 import json
 from django.core.management.base import BaseCommand
-from faqs.models import FAQ
+from faqs.models import faq
 
 
 class Command(BaseCommand):
@@ -21,7 +21,7 @@ class Command(BaseCommand):
         with open(file_path, 'r', encoding='utf-8') as file:
             data = json.load(file)
             for item in data:
-                FAQ.objects.create(
+                faq.objects.create(
                     question=item['question'],
                     answer=item['answer'],
                     category=item['category'],

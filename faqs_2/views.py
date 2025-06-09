@@ -4,5 +4,5 @@ from django.shortcuts import render
 
 def faqs_page_2(request):
     """ A view to return the FAQs page """
-     # faqs = FAQ_2.objects.all()
+    # faqs = FAQ_2.objects.all()
     return render(request, 'faqs/faqs_page_2.html')

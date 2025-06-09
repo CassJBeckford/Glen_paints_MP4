@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "question": "HOW WILL MY ORDER BE PACKAGED/POSTED?",
+        "answer": "For packaging our products we use compostable tissue paper to wrap the artwork before placing it inside a clear, sturdy plastic bag. We also place cardboard or foam corner protectors at the corners of the tightly wrapped painting to provide cushioning and additional protection.",
+        "category": "Orders"
+    },
+    {
+        "id": 2,
+        "question": "DO YOU HAVE GIFT PACKAGING OPTIONS?",
+        "answer": "All items contain the option to add wrapping, a gift box or bag, a decorative ribbon, and a printed card with a gift message. Email @... after your order has been placed to include gift packaging options",
+        "category": "Orders"
+    },
+    {
+        "id": 5,
+        "question": "CAN I CANCEL OR MODIFY AN ORDER?",
+        "answer": "Email @... within 24 hours of purchasing your items and any adjustments/cancellations will be made/accepted.",
+        "category": "Orders"
+    },
+    {
+        "id": 3,
+        "question": "WHAT COUNTRIES DO YOU SHIP TO?",
+        "answer": "We are proud to say we have the ability to ship our artwork worldwide not just domestically. However, there are some exceptions in regard to specific regions. For more information on whether we can deliver our items to your location/area email @...",
+        "category": "Delivery"
+    },
+    {
+        "id": 4,
+        "question": "WHAT IF MY ORDER ARRIVES DAMAGED?",
+        "answer": "In the event of any damages contact us immediately through @... and follow our instructions which will include providing evidence. In certain cases we will either offer a full replacement or partial refund",
+        "category": "Delivery"
+    },
+    {
+        "id": 6,
+        "question": "WHAT IS YOUR RETURN/EXCHANGE POLICY?",
+        "answer": "Items cannot be returned after purchase unless it has sustained any damage during the shipping process.",
+        "category": "Returns"
+    },
+    {
+        "id": 7,
+        "question": "WHAT PAYMENT METHODS DO YOU ACCEPT?",
+        "answer": "We accept various payment methods including credit/debit cards, PayPal, and other major payment processors.",
+        "category": "Payments"
+    }
+]

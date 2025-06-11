@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_title %} - FAQs{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/faq.css' %}">
+{% endblock %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="col text-center mt-3">
+            <h1 class="heading-text">frequently asked questions</h1>
+        </div>
+    </div>
+
+    {% for faq in faqs %}
+
+        <div>
+            <h2>
+                {{ faq.question }}
+            </h2>
+        </div>
+        <div>
+            <p>
+                {{ faq.answer }}
+            </p>
+        </div>
+
+    {% endfor %}
+
+{% endblock %}

@@ -3,7 +3,7 @@
        "pk":1,
        "model":"products.category",
        "fields":{
-          "name":"single colour",
+          "name":"singlecolour",
           "friendly_name":"Single Colour"
        }
     },

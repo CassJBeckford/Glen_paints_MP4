@@ -31,7 +31,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-    'glen-paints-0a1ccec4562b.herokuapp.com',
+    'https://glen-paints-0a1ccec4562b.herokuapp.com/',
 ]
 
 
@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'faqs',
+    'faqs_test',
     'contact',
 
     # Other

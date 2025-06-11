@@ -1,7 +1,7 @@
 [
     {
         "pk": 1,
-        "model": "faqs.faq",
+        "model": "faqs_test.faq",
         "id": 1,
         "fields": {
             "question": "HOW WILL MY ORDER BE PACKAGED/POSTED?",
@@ -12,7 +12,7 @@
     {
         "pk": 2,
         "id": 2,
-        "model": "faqs.faq",
+        "model": "faqs_test.faq",
         "fields": {
             "question": "DO YOU HAVE GIFT PACKAGING OPTIONS?",
             "answer": "All items contain the option to add wrapping, a gift box or bag, a decorative ribbon, and a printed card with a gift message. Email @... after your order has been placed to include gift packaging options",

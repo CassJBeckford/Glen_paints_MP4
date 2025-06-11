@@ -31,7 +31,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-    'glen-paints-0a1ccec4562b.herokuapp.com',
+    'glens-paintings-0a22e43e4b5d.herokuapp.com',
 ]
 
 

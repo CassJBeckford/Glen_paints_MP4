@@ -122,6 +122,18 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+/* ------------------------------- FAQs */
+
+#accordionExample {
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 30px;
+}
+
+.heading-text {
+    padding: 20px 0 20px 0;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {

@@ -28,6 +28,15 @@ I have used the [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/) to 
 | Bag | ![screenshot](docs/testing/css/bag_css.png) | Pass: No Errors |
 | Checkout | ![screenshot](docs/testing/css/checkut_css.png) | Pass: No Errors |
 
+### JS
+
+I have used the [JShint validator](https://jshint.com/) to validate all of my JS files.
+
+| Page | Screenshot | Notes | |
+| --- | --- | --- | --- |
+| stripe_elements.js | ![screenshot](docs/testing/js/strip_js.png) | Undefined Stripe variable |
+
+
 ### PYTHON
 
 I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com) to validate all of my Python files.

@@ -13,7 +13,7 @@
     "model": "faqs.faq",
     "fields": {
         "question": "DO YOU HAVE GIFT PACKAGING OPTIONS?",
-        "answer": "All items contain the option to add wrapping, a gift box or bag, a decorative ribbon, and a printed card with a gift message. Email @... after your order has been placed to include gift packaging options",
+        "answer": "All items contain the option to add wrapping, a gift box or bag, a decorative ribbon, and a printed card with a gift message. Email glenpaints@example.com after your order has been placed to include gift packaging options",
         "category": "Orders"
     }
 },
@@ -22,7 +22,7 @@
     "model": "faqs.faq",
     "fields": {
         "question": "CAN I CANCEL OR MODIFY AN ORDER?",
-        "answer": "Email @... within 24 hours of purchasing your items and any adjustments/cancellations will be made/accepted.",
+        "answer": "Email glenpaints@example.com within 24 hours of purchasing your items and any adjustments/cancellations will be made/accepted.",
         "category": "Orders"
     }
 },
@@ -31,7 +31,7 @@
     "model": "faqs.faq",
     "fields": {
         "question": "WHAT COUNTRIES DO YOU SHIP TO?",
-        "answer": "We are proud to say we have the ability to ship our artwork worldwide not just domestically. However, there are some exceptions in regard to specific regions. For more information on whether we can deliver our items to your location/area email @...",
+        "answer": "We are proud to say we have the ability to ship our artwork worldwide not just domestically. However, there are some exceptions in regard to specific regions. For more information on whether we can deliver our items to your location/area email @glenpaints@example.com",
         "category": "Delivery"
     }
 },
@@ -40,7 +40,7 @@
     "model": "faqs.faq",
     "fields": {
         "question": "WHAT IF MY ORDER ARRIVES DAMAGED?",
-        "answer": "In the event of any damages contact us immediately through @... and follow our instructions which will include providing evidence. In certain cases we will either offer a full replacement or partial refund",
+        "answer": "In the event of any damages contact us immediately through glenpaints@example.com and follow our instructions which will include providing evidence. In certain cases we will either offer a full replacement or partial refund",
         "category": "Delivery"
     }
 },

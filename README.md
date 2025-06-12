@@ -3,6 +3,8 @@
 # Glen paints
 # - a full stack e-commerce web application
 
+## [Click Here To View The Live Project](https://glens-paintings-0a22e43e4b5d.herokuapp.com/)
+
 ------
 ## About and purpose 
 
@@ -11,6 +13,18 @@ My father, Glen, produces original artwork, so for this project I am building hi
 Through this site he can share his passion for creating and designing, demonstrating his talents as a painter and photographer, and so the website has future scope to help streamline any of his freelance services .
 
 ----------------------------
+
+## Test card details (from Stripe):
+
+- Card number: 4242 4242 4242 4242
+
+- Expiry date: 04 / 245 (or any future date)
+
+- CVC: 424 (example)
+
+- ZIP: 42424
+
+------
 
 ## UX:
 ## Strategy
@@ -240,6 +254,9 @@ Through this site he can share his passion for creating and designing, demonstra
  1. Includes a checkout form for adding delivery and payment info 
  ![Features](docs/features/checkout_page.png)
 
+ 2. Includes items that are being ordered
+  ![Features](docs/features/order_snippet.png)
+
 ### Account:
 
  1. Sign in - Users can input their sign in info or the option to register an account if they don't have one already.
@@ -248,8 +265,19 @@ Through this site he can share his passion for creating and designing, demonstra
  2. Register - Users can create an account using their email and create a password.
  ![Features](docs/features/user_signup.png)
 
+ 3. Users registering for an account have to confirm their email.
+  ![Features](docs/features/email_confirmation.png)
+
+ 4. Users can see their personal info and past orders.
+ ![Features](docs/features/user_profile.png)
+
  ---
-## Features
+## Testing
+
+For all testing, please refer to the [TESTING.md](TESTING.md) file.
+
+ ---
+## Deployment
 
 ### Amazon AWS
 
@@ -456,6 +484,22 @@ USE_AWS = True
 ```
 
 9. Then add the hostname of the Heroku app to ALLOWED_HOSTS in settings.py of the main django project app.
+
+## Credits
+
+###  Code
+
+   -   [Code Institute](https://codeinstitute.net/): Code Institutes lessons have help with all coding throughout this project.
+
+   -   [Code Institute Sample README.md](https://github.com/Code-Institute-Solutions/SampleREADME): Code Institute Sample README.md has been used to help with readme layout.
+
+   -   [Bootstrap5](https://getbootstrap.com/docs/5.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the    Bootstrap Grid System.
+
+   -   [W3 Schools](https://www.w3schools.com/): W3 Schools has been used with some elements in this project.
+
+### Acknowledgments
+
+	- Special thanks to my Tutor- Miguel & Mentor- Moritz for their help and guidance throughout this project.
 
 
 

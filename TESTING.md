@@ -75,6 +75,18 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 | Contact urls.py | ![screenshot](docs/testing/python/contact_urls.png) |
 | Contact views.py | ![screenshot](docs/testing/python/contact_views.png) |
 
+### Lighthouse testing
+
+| Page | | Screenshot | |
+| --- | --- | --- | --- |
+| Home           | ![screenshot](docs/testing/lighthouse/dev_home.png) |
+| Products       | ![screenshot](docs/testing/lighthouse/dev_products.png) |
+| Product detail | ![screenshot](docs/testing/lighthouse/dev_product_detail.png) |
+| FAQs           | ![screenshot](docs/testing/lighthouse/dev_faqs.png) |
+| Contact        | ![screenshot](docs/testing/lighthouse/dev_contact.png) |
+| Bag            | ![screenshot](docs/testing/lighthouse/dev_bag.png) |
+| Checkout       | ![screenshot](docs/testing/lighthouse/dev_checkout.png) |
+
 ### Manual Testing 
 
 | **Page**        | **Testing**                                                      | **Outcome** |

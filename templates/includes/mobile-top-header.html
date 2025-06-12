@@ -2,8 +2,8 @@
     <li class="list-inline-item">
         <a class="text-black nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <div class="text-center">
-                <div><i class="fas fa-search fa-lg orange"></i></div>
-                <p class="my-0 orange">Search</p>
+                <div><i class="fas fa-search fa-lg"></i></div>
+                <p class="my-0">Search</p>
             </div>
         </a>
         <div class="dropdown-menu border-0 w-100 p-3 rounded-0 my-0" aria-labelledby="mobile-search">
@@ -24,8 +24,8 @@
     <li class="list-inline-item dropdown">
         <a class="text-black nav-link d-block d-lg-none" href="#" id="user-option" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <div class="text-center">
-                <div><i class="fas fa-user fa-lg orange"></i></div>
-                <p class="my-0 orange">My Account</p>
+                <div><i class="fas fa-user fa-lg"></i></div>
+                <p class="my-0">My Account</p>
             </div>
         </a>
         <div class="dropdown-menu border-0" aria-labelledby="user-option">
@@ -44,8 +44,8 @@
     <li class="list-inline-item">
         <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="{% url 'view_bag' %}">
             <div class="text-center">
-                <div><i class="fas fa-shopping-bag fa-lg orange"></i></div>
-                <p class="my-0 orange">
+                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+                <p class="my-0">
                     {% if grand_total %}
                         ${{ grand_total|floatformat:2 }}
                     {% else %}

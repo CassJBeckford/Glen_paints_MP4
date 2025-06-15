@@ -203,6 +203,10 @@ a.category-badge > span.badge:hover {
     overflow-y: auto;
 }
 
+header {
+    margin-bottom: 100px;
+}
+
 /* -------------------------------- Media Queries */
 
 .footer {

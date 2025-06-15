@@ -5,6 +5,8 @@
 
 ## [Click Here To View The Live Project](https://glens-paintings-0a22e43e4b5d.herokuapp.com/)
 
+## ![Text](docs/responsive/screen_types.png)
+
 ------
 ## About and purpose 
 

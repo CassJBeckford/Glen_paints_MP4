@@ -7,3 +7,12 @@
 .heading-text {
     padding: 20px 0 20px 0;
 }
+
+div.card {
+    background-color: ;
+}
+
+.faqs-accordian, .card {
+    background-color: #E4D2CC;
+    margin-bottom: 10px;
+}

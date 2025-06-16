@@ -93,6 +93,10 @@ p {
     color: #C26C21;
 }
 
+.black {
+    color: #000;
+}
+
 .overlay {
 	height: 100%;
 	width: 100%;
@@ -120,18 +124,6 @@ a.category-badge > span.badge:hover {
 .update-link,
 .remove-item {
     cursor: pointer;
-}
-
-/* ------------------------------- FAQs */
-
-#accordionExample {
-    text-align: center;
-    margin: 10px;
-    padding-bottom: 30px;
-}
-
-.heading-text {
-    padding: 20px 0 20px 0;
 }
 
 /* ------------------------------- bootstrap toasts */
